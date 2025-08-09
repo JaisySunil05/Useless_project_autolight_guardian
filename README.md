@@ -50,7 +50,7 @@ IR sensor detects someone entering the room
 
 Speaker ready to play the message once the room is empty
 
-Switch remains ON after everyone exits = “Polayaadi mone…” is played
+Switch remains ON after everyone exits = A voice is played is played
 ________________________________________
 Diagrams
 
