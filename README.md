@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-08-09 at 17 18 53_0cdb8b29](https://github.com/user-attachments/assets/d8bfba13-1a3e-4705-8365-8c43a44af736)<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 🚪 Exit Light Reminder System 💡🎙️
 Basic Details
 Team Name: Crystal Minds
