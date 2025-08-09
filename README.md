@@ -83,6 +83,7 @@ Mounting sensors on the box and connecting wiring
 A full demo: person leaves room → forgets switch → system plays the warning audio
 ________________________________________
 Project Demo
+
 Video
 ________________________________________
 Team Contributions
