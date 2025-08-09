@@ -1,30 +1,49 @@
 #include "SoftwareSerial.h"
 #include "DFRobotDFPlayerMini.h"
 
-SoftwareSerial mp3Serial(10, 11); // DFPlayer TX, RX
-DFRobotDFPlayerMini mp3;
+// Pin Definitions
+#define SENSOR_OUTSIDE 2
+#define SENSOR_INSIDE 3
+#define LIGHT_SWITCH_PIN 4
+#define LIGHT_OUTPUT_PIN 5
 
-const int irInsidePin = 2;
-const int irOutsidePin = 3;
-const int lightSwitchPin = 4; // Switch input
-const int lightLEDPin = 5;    // LED output
+// DFPlayer connections
+#define DF_TX 10  // Arduino TX to DFPlayer RX
+#define DF_RX 11  // Arduino RX to DFPlayer TX
 
+// Variables
 int peopleCount = 0;
-bool irInsideState = false;
-bool irOutsideState = false;
+bool lightState = false;
+
+SoftwareSerial mySerial(DF_RX, DF_TX);
+DFRobotDFPlayerMini myDFPlayer;
 
 void setup() {
+  pinMode(SENSOR_OUTSIDE, INPUT);
+  pinMode(SENSOR_INSIDE, INPUT);
+  pinMode(LIGHT_SWITCH_PIN, INPUT_PULLUP);
+  pinMode(LIGHT_OUTPUT_PIN, OUTPUT);
+
   Serial.begin(9600);
-  mp3Serial.begin(9600);
+  mySerial.begin(9600);
 
-  pinMode(irInsidePin, INPUT);
-  pinMode(irOutsidePin, INPUT);
-  pinMode(lightSwitchPin, INPUT_PULLUP); // switch
-  pinMode(lightLEDPin, OUTPUT);          // LED
-
-  if (!mp3.begin(mp3Serial)) {
+  if (!myDFPlayer.begin(mySerial)) {
     Serial.println("DFPlayer Mini not detected!");
     while (true);
   }
-  mp3.volume(25);
+  myDFPlayer.volume(25); // Set volume (0-30)
+
+  Serial.println("System Ready");
 }
+
+void loop() {
+  // Read switch state
+  lightState = digitalRead(LIGHT_SWITCH_PIN) == LOW; // LOW if switch ON
+  digitalWrite(LIGHT_OUTPUT_PIN, lightState);
+
+   // Control LED based on switch
+  digitalWrite(lightLEDPin, lightOn ? HIGH : LOW);
+
+  // IR Sensor logic
+  if (digitalRead(irOutsidePin) == LOW) irOutsideState = true;
+  if (digitalRead(irInsidePin) == LOW) irInsideState = true;
