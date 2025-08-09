@@ -1,4 +1,4 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+![WhatsApp Image 2025-08-09 at 17 18 53_0cdb8b29](https://github.com/user-attachments/assets/d8bfba13-1a3e-4705-8365-8c43a44af736)<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 🚪 Exit Light Reminder System 💡🎙️
 Basic Details
 Team Name: Crystal Minds
@@ -61,13 +61,15 @@ All components and how they’re wired together: IR sensors, DFPlayer, speaker, 
 ________________________________________
 
 Build Photos
-https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.53_0cdb8b29.jpg
-https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.53_be436037.jpg
-https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.53_ec749bf9.jpg
-https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.54_23bfc6f4.jpg
 
 
-       
+![WhatsApp Image 2025-08-09 at 17 18 54_23bfc6f4](https://github.com/user-attachments/assets/fa32f3ec-6acf-49a0-ba64-68245551e405)
+![WhatsApp Image 2025-08-09 at 17 18 53_ec749bf9](https://github.com/user-attachments/assets/aafcf2de-0cec-4154-a368-3b9ee8cb4895)
+
+![WhatsApp Image 2025-08-09 at 17 18 53_be436037](https://github.com/user-attachments/assets/8bf4cb1a-0aed-444a-ae7e-d07d033b8a85)
+
+     ![WhatsApp Image 2025-08-09 at 17 18 53_0cdb8b29](https://github.com/user-attachments/assets/c98002e6-ffb3-4de0-bb22-1e9602e6c809)
+  
 
 •	IR sensors
 •	DFPlayer Mini
