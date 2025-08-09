@@ -1,5 +1,4 @@
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b86b7574-38f9-4730-9311-2c32caf5971d" /># Useless_project_autolight_guardian
-
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 🚪 Exit Light Reminder System 💡🎙️
 Basic Details
 Team Name: Crystal Minds
