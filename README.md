@@ -1,43 +1,86 @@
-# Useless_project_autolight_guardian
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b86b7574-38f9-4730-9311-2c32caf5971d" /># Useless_project_autolight_guardian
 
-🛡️ PROJECT TITLE: Auto Light Guardian
-👥 TEAM NAME: Crystal Minds
-👨‍💻 TEAM MEMBERS: Hrisheekesh Narayan P E (School of Engineering, CUSAT) 
-           Jaisy Sunil (School of Engineering, CUSAT)
-🔷 Introduction – Who We Are
-We are Team Crystal Minds, a duo of tech enthusiasts driven by curiosity, creativity, and the joy of building solutions that blend usefulness with fun.
-Together, we aim to create electronics projects that make everyday tasks smarter, smoother, and sometimes, a little more amusing.
-💡 About the Project – Auto Light Guardian
-Auto Light Guardian is a smart light reminder system designed to gently alert users when they forget to switch off the lights while exiting a room.
-Using a combination of entry/exit sensors and a voice alert system, it acts like a humorous and helpful “guardian” that ensures no light is left ON unnecessarily — saving power while making people smile.
+🚪 Exit Light Reminder System 💡🎙️
+Basic Details
+Team Name: Switched Off
+Team Members
+•	Member 1: Jaisy Sunil – School of Engineering, CUSAT
+•	Member 2: Hrisheekesh Narayan P E, School of Engineering, CUSAT
+________________________________________
+Project Description
+A room with a mind of its own. Our system reminds forgetful humans (very politely) to turn off the lights when they leave a room — because the room doesn't pay the electricity bill.
+________________________________________
+The Problem (that doesn't exist)
+People walk out of rooms leaving lights on, burning electricity and our patience. We're tired of yelling “Switch off the light!” — so we automated the nagging.
+________________________________________
+The Solution (that nobody asked for)
+Using IR sensors and a DFPlayer Mini, our setup detects when someone leaves a room with the light still on — and immediately plays a pre-recorded voice message (bonus if it's your mom’s voice) reminding you to go back and switch it off.
+________________________________________
+Technical Details
+Technologies/Components Used
+For Software:
+•	Language: C++ (Arduino IDE)
+•	Libraries: SoftwareSerial, DFRobotDFPlayerMini
+•	Tools: Arduino IDE, Serial Monitor
+For Hardware:
+•	Arduino Uno / Leonardo
+•	2× IR Obstacle Avoidance Sensors
+•	DFPlayer Mini MP3 Module
+•	MicroSD Card (≤32GB FAT32)
+•	8Ω Speaker
+•	Logic-Level N-Channel MOSFET (e.g. IRFZ44N)
+•	5V DC LED Bulb
+•	Push-button or switch (light control simulation)
+•	Jumper Wires, Breadboard, 1kΩ + 2kΩ resistors (for voltage divider)
+•	Power Bank / USB supply
+________________________________________
+Implementation
+Installation
+1.	Install Arduino IDE
+2.	Add the DFRobotDFPlayerMini library from Library Manager
+Run
+•	Upload .ino file to Arduino
+•	Power up the system
+•	Walk in and out of the "room" (represented by a cardboard box)
+•	Forget to turn off the light for full experience
+________________________________________
+Project Documentation
+Screenshots
 
-🔍 Problem It Solves
-We all forget things — especially simple ones like turning off the light when leaving a room. This project helps solve that by:
-•	Automatically tracking the number of people inside a room
-•	Monitoring the light status
-•	Playing a voice reminder if the room becomes empty and the light is still ON
-—
-⚙️ How It Works
-•	Two IR sensors are placed on either side of a doorway:
-o	Sensor 1 (outside) and Sensor 2 (inside)
-o	If a person triggers outside first, then inside — it's an entry
-o	If inside first, then outside — it's an exit
-•	An internal counter keeps track of how many people are inside
-•	A button is used to turn the light ON/OFF — and Arduino always knows the light state
-•	When people count drops to 0 and light is still ON, the system plays an audio reminder using a DF Player Mini and a speaker
+IR sensor detects someone entering the room
 
+Speaker ready to play the message once the room is empty
 
-🔧 Components Used
-•	Arduino UNO 
-•	2 × IR sensors (for entry/exit detection)
-•	DF Player Mini with speaker
-•	LED light bulb 
-•	Pushbutton (to toggle light)
-•	MicroSD card 
-•	Wires, resistors, breadboard/enclosure
-—
-🎯 Why Auto Light Guardian?
-•	Combines real-world usefulness with a touch of humour
-•	Encourages energy saving in classrooms, dorms, or homes
-•	Introduces concepts like sensor logic, human counting, and audio feedback
-•	Easy to build, fun to present, and hard to forget 
+Switch remains ON after everyone exits = “Polayaadi mone…” is played
+________________________________________
+Diagrams
+
+A person enters > IR sensors update people count > Light stays ON > Exit triggers audio alert
+Schematic & Circuit
+
+All components and how they’re wired together: IR sensors, DFPlayer, speaker, LED via MOSFET
+________________________________________
+
+Build Photos
+       
+
+•	IR sensors
+•	DFPlayer Mini
+•	Speaker
+•	Arduino Uno
+•	Jumper Wires
+•	LED Bulb
+
+Mounting sensors on the box and connecting wiring
+
+A full demo: person leaves room → forgets switch → system plays the warning audio
+________________________________________
+Project Demo
+Video
+________________________________________
+Team Contributions
+•	Jaisy Sunil: coding, documentation, testing
+•	Hrisheekesh Narayan P E: Voiceover recording, debugging, Circuit design
+________________________________________
+Made with ❤️ at TinkerHub Useless Projects
+
