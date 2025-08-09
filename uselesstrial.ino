@@ -47,3 +47,23 @@ void loop() {
   // IR Sensor logic
   if (digitalRead(irOutsidePin) == LOW) irOutsideState = true;
   if (digitalRead(irInsidePin) == LOW) irInsideState = true;
+  
+  // Person entering
+  if (irOutsideState && irInsideState) {
+    peopleCount++;
+    Serial.println("Person entered");
+    irOutsideState = false;
+    irInsideState = false;
+    delay(500);
+  }
+
+  // Person exiting
+  if (irInsideState && irOutsideState) {
+    peopleCount--;
+    if (peopleCount < 0) peopleCount = 0;
+    Serial.println("Person exited");
+    irInsideState = false;
+    irOutsideState = false;
+    delay(500);
+  }
+
