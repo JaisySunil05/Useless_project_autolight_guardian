@@ -83,7 +83,7 @@ Mounting sensors on the box and connecting wiring
 A full demo: person leaves room → forgets switch → system plays the warning audio
 ________________________________________
 Project Demo
-
+https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Video%202025-08-09%20at%2018.32.10_bf1feeff.mp4
 Video
 ________________________________________
 Team Contributions
