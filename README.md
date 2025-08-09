@@ -2,7 +2,7 @@
 
 🚪 Exit Light Reminder System 💡🎙️
 Basic Details
-Team Name: Switched Off
+Team Name: Crystal Minds
 Team Members
 •	Member 1: Jaisy Sunil – School of Engineering, CUSAT
 •	Member 2: Hrisheekesh Narayan P E, School of Engineering, CUSAT
