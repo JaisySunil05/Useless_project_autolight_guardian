@@ -62,6 +62,11 @@ ________________________________________
 
 Build Photos
 https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.53_0cdb8b29.jpg
+https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.53_be436037.jpg
+https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.53_ec749bf9.jpg
+https://github.com/JaisySunil05/Useless_project_autolight_guardian/blob/main/uselessprjt%20image/WhatsApp%20Image%202025-08-09%20at%2017.18.54_23bfc6f4.jpg
+
+
        
 
 •	IR sensors
